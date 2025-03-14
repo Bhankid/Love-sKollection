@@ -74,7 +74,7 @@ export default function WigsPage() {
               </div>
               <CardContent className="p-4">
                 <h3 className="text-lg font-semibold">{product.name}</h3>
-                <p className="text-sm text-muted-foreground">${product.price}</p>
+                <p className="text-sm text-muted-foreground">₵{product.price}</p>
                 <Button className="mt-4 w-full" asChild>
                   <Link href={`/product/${product.id}`}>View Details</Link>
                 </Button>
